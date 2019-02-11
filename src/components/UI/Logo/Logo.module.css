@@ -1,0 +1,20 @@
+.logo {
+  border-top: 4px solid #648880;
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.a:hover {
+  color: #648880;
+}
