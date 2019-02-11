@@ -4,8 +4,12 @@ import styles from "components/UI/Nav/Nav.module.css";
 
 const links = ["home", "speakers", "schedule", "venue", "register"];
 
-export default () => (
-  <nav className={styles.primaryNav}>
+export default props => (
+  <nav
+    className={
+      props.primary ? [styles.nav, styles.primaryNav].join(" ") : styles.nav
+    }
+  >
     <ul>
       {links.map((link, i) => (
         <li key={`${link}-nav`}>

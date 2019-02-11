@@ -7,6 +7,6 @@ export default () => (
   <header className={styles.header}>
     <Logo />
     <h3 className={styles.tagline}>August 24&ndash;26th &mdash; Chicago, IL</h3>
-    <Nav />
+    <Nav primary/>
   </header>
 );
