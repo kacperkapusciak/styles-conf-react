@@ -11,6 +11,7 @@ I've rewritten HTML & CSS code from this great book
 - React
 - CSS-modules
 - react-router
+- Jest, Enzyme
 
 ## Available Scripts
 
