@@ -8,7 +8,7 @@ export default () => (
   <nav className={styles.primaryNav}>
     <ul>
       {links.map((link, i) => (
-        <li key={i}>
+        <li key={`${link}-nav`}>
           <NavLink className={styles.a} to={`/${link}`}>
             {link}
           </NavLink>
