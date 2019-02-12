@@ -6,6 +6,9 @@ I've rewritten HTML & CSS code from this great book
 
  into React app using CSS-modules and react-router. 
 
+ To be precise: I do not own design nor the content of this website but I’ve written **all** the JavaScript code of this app by myself i.e. React, Redux etc. Just to make things clear... Cheers ✌️
+​
+
 ## Tech Stack
 
 - React
