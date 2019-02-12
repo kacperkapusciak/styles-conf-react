@@ -3,6 +3,10 @@
   text-transform: capitalize;
 }
 
+.nav ul {
+  margin: 0;
+}
+
 .nav li {
   display: inline-block;
   margin: 0 10px;

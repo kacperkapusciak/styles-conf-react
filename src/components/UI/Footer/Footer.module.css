@@ -1,0 +1,19 @@
+.footer::before,
+.footer::after {
+  content: "";
+  display: table;
+}
+
+.footer::after {
+  clear: both;
+}
+.footer {
+  clear: both;
+  *zoom: 1;
+  color: #648880;
+  padding: 44px 0;
+}
+
+.footer small {
+  float: left;
+}
