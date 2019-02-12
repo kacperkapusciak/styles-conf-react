@@ -1,0 +1,20 @@
+[
+  {
+    "title": "speakers",
+    "image": "speakers.jpg?alt=media&token=2d722df1-ad08-4701-a64a-123e845c51c9",
+    "subtitle": "World-Class Speakers",
+    "text": "Joining us from all around the world are over twenty fantastic speakers, here to share their stories."
+  },
+  {
+    "title": "schedule",
+    "image": "schedule.jpg?alt=media&token=2b73150c-100c-42c6-9881-e3058f3c26f7",
+    "subtitle": "Three Inspiring Days",
+    "text": "Enjoy three inspiring and action-packed days of talks, gatherings, and all-around good times."
+  },
+  {
+    "title": "venue",
+    "image": "venue.jpg?alt=media&token=2723e41e-87e3-49fd-b14b-4f87ff38bc46",
+    "subtitle": "The Chicago Theatre",
+    "text": "Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue."
+  }
+]
