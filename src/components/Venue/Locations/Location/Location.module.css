@@ -1,0 +1,14 @@
+.location {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 66px;
+}
+
+.location:last-child {
+  margin-bottom: 22px;
+}
+
+.map {
+  height: 264px;
+  width: 100%;
+}
