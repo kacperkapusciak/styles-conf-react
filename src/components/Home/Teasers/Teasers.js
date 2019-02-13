@@ -7,13 +7,7 @@ export default () => (
   <section className={styles.teasers}>
     <div className={styles.grid}>
       {teasers.map((teaser, i) => (
-        <Teaser
-          key={`teaser-${i}`}
-          title={teaser.title}
-          image={teaser.image}
-          subtitle={teaser.subtitle}
-          text={teaser.text}
-        />
+        <Teaser key={`teaser-${i}`} {...teaser} />
       ))}
     </div>
   </section>

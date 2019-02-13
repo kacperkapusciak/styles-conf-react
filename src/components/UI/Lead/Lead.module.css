@@ -8,14 +8,10 @@
   text-align: center;
   width: 960px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 .lead p {
   font-size: 21px;
   line-height: 33px;
-}
-
-.lead h1 {
-  font-weight: 300;
-  margin-top: 0;
 }
