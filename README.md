@@ -15,6 +15,7 @@ I've rewritten HTML & CSS code from this great book
 - CSS-modules
 - react-router
 - Jest, Enzyme
+- PropTypes
 
 ## Available Scripts
 
