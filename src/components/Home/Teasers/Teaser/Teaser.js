@@ -1,10 +1,11 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import styles from "components/Home/Teasers/Teaser/Teaser.module.css";
 
 const uri = "https://firebasestorage.googleapis.com/v0/b/styles-conf-react.appspot.com/o/";
 
-export default ({ title, image, subtitle, text }) => (
+ const Teaser = ({ title, image, subtitle, text }) => (
   <section className={styles.teaser}>
     <h5>{title}</h5>
     <NavLink to={`/${title}`}>
@@ -14,3 +15,12 @@ export default ({ title, image, subtitle, text }) => (
     <p>{text}</p>
   </section>
 );
+
+Teaser.propTypes = {
+  title: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
+}
+
+export default Teaser;
