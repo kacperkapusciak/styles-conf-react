@@ -9,10 +9,7 @@ export default () => (
       {teasers.map((teaser, i) => (
         <Teaser
           key={`teaser-${i}`}
-          title={teaser.title}
-          image={teaser.image}
-          subtitle={teaser.subtitle}
-          text={teaser.text}
+          {...teaser}
         />
       ))}
     </div>
