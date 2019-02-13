@@ -7,10 +7,7 @@ export default () => (
   <section className={styles.teasers}>
     <div className={styles.grid}>
       {teasers.map((teaser, i) => (
-        <Teaser
-          key={`teaser-${i}`}
-          {...teaser}
-        />
+        <Teaser key={`teaser-${i}`} {...teaser} />
       ))}
     </div>
   </section>
