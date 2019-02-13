@@ -1,0 +1,27 @@
+.teaser {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
+
+.teaser h3 {
+  font-weight: 300;
+}
+
+.teaser a {
+  text-decoration: none;
+}
+
+.teaser h5 {
+  text-transform: uppercase;
+}
+
+.teaser img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+}

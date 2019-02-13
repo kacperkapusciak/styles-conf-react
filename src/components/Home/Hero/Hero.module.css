@@ -1,0 +1,38 @@
+.hero {
+  color: #fff;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin: 0;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #648880;
+}

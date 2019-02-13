@@ -1,0 +1,19 @@
+.header::before,
+.header::after {
+  content: "";
+  display: table;
+}
+
+.header::after {
+  clear: both;
+}
+.header {
+  clear: both;
+  *zoom: 1;
+}
+
+.tagline {
+  margin: 66px 0 22px 0;
+  text-align: right;
+  font-weight: 300;
+}
