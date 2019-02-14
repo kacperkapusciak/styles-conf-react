@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "components/UI/Container/Container";
 import Header from "components/UI/Header/Header";
 import Footer from "components/UI/Footer/Footer";
 import Lead from "components/UI/Lead/Lead";
