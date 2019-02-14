@@ -7,16 +7,10 @@ import Footer from "components/UI/Footer/Footer";
 
 const Home = props => (
   <>
-    <Container>
-      <Header />
-      <Hero />
-    </Container>
-
+    <Header />
+    <Hero />
     <Teasers />
-
-    <Container>
-      <Footer />
-    </Container>
+    <Footer />
   </>
 );
 
