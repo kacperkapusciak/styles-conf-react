@@ -18,6 +18,23 @@
 .teaser img {
   border-radius: 5px;
   display: block;
-  margin-bottom: 22px;
   max-width: 100%;
+}
+
+/* prevents website "jumping" while page is loading */
+.img_container {
+  position: relative;
+  /* ratio of image height to width */
+  padding-bottom: 70.714285714%; 
+  height: 0;
+  overflow: hidden;
+  background-color: #e9e9e9;
+  margin-bottom: 22px;
+}
+ 
+.img_container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
 }
