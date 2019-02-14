@@ -1,0 +1,17 @@
+.speaker {
+  background: #fff;
+  padding: 44px 0 22px 0;
+}
+
+.speaker:last-child {
+  padding-bottom: 44px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
