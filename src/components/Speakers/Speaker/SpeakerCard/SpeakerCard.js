@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styles from "components/Speakers/Speaker/SpeakerCard/SpeakerCard.module.css";
 
 const uri =
-  "https://firebasestorage.googleapis.com/v0/b/styles-conf-react.appspot.com/o/Speakers%2";
+  "https://firebasestorage.googleapis.com/v0/b/styles-conf-react.appspot.com/o/Speakers%2F";
 
 const SpeakerCard = ({ name, surname, image, twitter, websites }) => (
   <aside className={styles.speaker_card}>
