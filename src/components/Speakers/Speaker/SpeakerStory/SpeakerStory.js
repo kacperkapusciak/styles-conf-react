@@ -15,7 +15,9 @@ const SpeakerStory = ({ academicTitle, name, surname, title, content, about }) =
 
     <h5>{`About ${name}`}</h5>
 
-    <p>{about}</p>
+    {about.map((paragraph, i) => (
+      <p key={`about-${name}-${i}`}>{paragraph}</p>
+    ))}
   </div>
 );
 
@@ -25,7 +27,7 @@ SpeakerStory.propTypes = {
   surname: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   content: PropTypes.array.isRequired,
-  about: PropTypes.string.isRequired
+  about: PropTypes.array.isRequired
 }
 
 export default SpeakerStory;

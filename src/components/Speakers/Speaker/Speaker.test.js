@@ -14,7 +14,7 @@ describe("<Speaker />", () => {
     image: "",
     title: "",
     content: [],
-    about: ""
+    about: []
   };
   it("displays <SpeakerStory> and <SpeakerCard> components", () => {
     const component = shallow(<Speaker {...props} />);
