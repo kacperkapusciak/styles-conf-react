@@ -1,13 +1,19 @@
 import axios from "axios";
-import { FETCH_SPEAKERS } from "store/actions/types";
+import { SET_SPEAKERS } from "store/actions/types";
+
+const setSpeakers = speakers => {
+  return {
+    type: SET_SPEAKERS,
+    payload: speakers
+  };
+};
 
 export const fetchSpeakers = () => {
-  const response = axios.get(
-    "https://styles-conf-react.firebaseio.com/styles-conf-react.json"
-  );
-
-  return {
-    type: FETCH_SPEAKERS,
-    payload: response
+  return dispatch => {
+    axios
+      .get("https://styles-conf-react.firebaseio.com/speakers.json")
+      .then(response => {
+        dispatch(setSpeakers(response.data));
+      });
   };
 };

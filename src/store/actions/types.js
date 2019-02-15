@@ -1,1 +1,1 @@
-export const FETCH_SPEAKERS = "FETCH_SPEAKERS";
+export const SET_SPEAKERS = "SET_SPEAKERS";
