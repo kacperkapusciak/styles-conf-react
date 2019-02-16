@@ -1,7 +1,7 @@
 import axios from "axios";
 import { SET_SPEAKERS } from "store/actions/types";
 
-const setSpeakers = speakers => {
+export const setSpeakers = speakers => {
   return {
     type: SET_SPEAKERS,
     payload: speakers
