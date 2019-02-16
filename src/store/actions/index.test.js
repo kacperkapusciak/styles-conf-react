@@ -1,14 +1,14 @@
-import { setSpeakers } from "store/actions";
-import { SET_SPEAKERS } from "store/actions/types";
+import { fetchSpeakersSuccess } from "store/actions";
+import { FETCH_SPEAKERS_SUCCESS } from "store/actions/types";
 
-describe("setSpeakers", () => {
+describe("fetchSpeakersSuccess", () => {
   it("has a correct type", () => {
-    const action = setSpeakers();
-    expect(action.type).toEqual(SET_SPEAKERS);
+    const action = fetchSpeakersSuccess();
+    expect(action.type).toEqual(FETCH_SPEAKERS_SUCCESS);
   });
 
   it("has a correct payload", () => {
-    const action = setSpeakers([{}]);
+    const action = fetchSpeakersSuccess([{}]);
     expect(action.payload).toEqual([{}]);
   });
 });

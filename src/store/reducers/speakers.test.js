@@ -1,9 +1,9 @@
 import speakersReducer from "store/reducers/speakers";
-import { SET_SPEAKERS } from "store/actions/types";
+import { FETCH_SPEAKERS_SUCCESS } from "store/actions/types";
 
-it("handles actions of type SET_SPEAKERS", () => {
+it("handles actions of type FETCH_SPEAKERS_SUCCESS", () => {
   const action = {
-    type: SET_SPEAKERS,
+    type: FETCH_SPEAKERS_SUCCESS,
     payload: [[{}, {}]]
   };
 
