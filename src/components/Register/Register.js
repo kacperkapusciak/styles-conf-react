@@ -3,6 +3,7 @@ import Header from "components/UI/Header/Header";
 import Lead from "components/UI/Lead/Lead";
 import Footer from "components/UI/Footer/Footer";
 import ConferencePass from "components/Register/ConferencePass/ConferencePass";
+
 const Register = props => (
   <>
     <Header />
