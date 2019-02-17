@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import {connect} from "react-redux";
+import { connect } from "react-redux";
+import * as actions from "store/actions";
 import styles from "components/Register/ConferencePass/RegisterForm/RegisterForm.module.css";
 
 class RegisterForm extends Component {
@@ -10,18 +11,19 @@ class RegisterForm extends Component {
     comments: ""
   };
 
-  handleInputChange = (event) => {
+  handleInputChange = event => {
     const name = event.target.name;
     const value = event.target.value;
     this.setState({
       [name]: value
     });
-  }
+  };
 
-  handleSubmit = (event) => {
+  handleSubmit = event => {
     event.preventDefault();
-
-  }
+    const registerData = this.state;
+    this.props.onFormSubmit(registerData);
+  };
 
   render() {
     return (
@@ -77,4 +79,8 @@ class RegisterForm extends Component {
   }
 }
 
-export default RegisterForm;
+const mapDispatchToProps = dispatch => ({
+  onFormSubmit: (registerData) => dispatch(actions.purchasePass(registerData))
+});
+
+export default connect(null, mapDispatchToProps)(RegisterForm);
