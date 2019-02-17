@@ -1,0 +1,66 @@
+.form {
+  margin-bottom: 22px;
+}
+
+input,
+select,
+textarea {
+  font: 300 16/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.registerGroup label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.registerGroup input,
+.registerGroup select,
+.registerGroup textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+
+.registerGroup input,
+.registerGroup textarea {
+  width: 100%;
+}
+
+.registerGroup select {
+  height: 34px;
+  width: 60px;
+}
+
+.registerGroup textarea {
+  height: 78px;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin: 0;
+  text-transform: uppercase;
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #77a198;
+}
+
+.btn:disabled {
+  background: #ccc;
+  color: #fff;
+  cursor: not-allowed;
+}

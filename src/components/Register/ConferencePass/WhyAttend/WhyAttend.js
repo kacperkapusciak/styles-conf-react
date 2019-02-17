@@ -2,7 +2,7 @@ import React from "react";
 import styles from "components/Register/ConferencePass/WhyAttend/WhyAttend.module.css";
 
 export default () => (
-  <section>
+  <section className={styles.whyAttend}>
     <h2>Purchase a Conference Pass</h2>
     <h5>$99 per Pass</h5>
 
@@ -15,7 +15,7 @@ export default () => (
 
     <h4>Why Attend?</h4>
 
-    <ul className={styles.whyAttend}>
+    <ul>
       <li>Over twenty world-class speakers</li>
       <li>One full day of workshops and two full days of presentations</li>
       <li>Hosted at The Chicago Theatre, a historical landmark</li>
