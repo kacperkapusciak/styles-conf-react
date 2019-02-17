@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "axios-instance";
 import {
   FETCH_SPEAKERS_START,
   FETCH_SPEAKERS_SUCCESS,
@@ -22,7 +22,7 @@ export const fetchSpeakersFail = error => ({
 export const fetchSpeakers = () => dispatch => {
   dispatch(fetchSpeakersStart());
   return axios
-    .get("https://styles-conf-react.firebaseio.com/speakers.json")
+    .get("/speakers.json")
     .then(response => {
       dispatch(fetchSpeakersSuccess(response.data));
     })
