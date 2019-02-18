@@ -1,5 +1,5 @@
 import configureMockStore from "redux-mock-store";
-import axios from "axios";
+import axios from "axios-instance";
 import MockAdapter from "axios-mock-adapter";
 
 import { fetchSpeakers, fetchSpeakersSuccess } from "store/actions";
@@ -42,7 +42,7 @@ describe("fetchSpeakers", () => {
     const store = mockStore({});
 
     mock
-      .onGet("https://styles-conf-react.firebaseio.com/speakers.json")
+      .onGet("/speakers.json")
       .reply(200, fetchSpeakersMock);
     // when
     fetchSpeakers()(store.dispatch);
